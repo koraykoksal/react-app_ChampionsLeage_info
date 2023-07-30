@@ -39,36 +39,40 @@ export const WinInfo = ({clyear,championsLeage}) => {
 
       {
         showimage?(
-          <div class="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-auto">
+          <div class="cardd">
 
           <div className='max-w-xl p-3'>
 
             <div className='infoShow'>
 
-            <TfiCup className='icons'/>
-            <h2 className='text-black text-center text-xl p-2'> {data.kazanan_takim_adi}</h2> 
-            
+            <h2> {data.kazanan_takim_adi}</h2> 
+
             </div>
             
             <img src={data.kazanan_takim_logo} className=' max-h-56 rounded-md m-auto' alt="" />
 
           </div>
 
-          <div>
+          <div className='infoShow'>
             <BsFillPeopleFill className='icons'/>
-            <h1></h1>
+            <h2>{data.couch_name}</h2>
+          </div>
+
+          <div className='infoShow'>
+          <TfiCup className='icons'/>
+            <h2>{data.kazanan_sampiyonlar_ligi_kupasi_sayisi}</h2>
           </div>
 
           </div>
         ):(
 
-          <div class="max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-auto">
+          <div class="cardd">
 
           <div className='max-w-xl p-3'>
 
             <div className='infoShow'>
               <MdStadium className='icons'/>
-              <h2 className='text-black text-center text-xl p-2'> {data.kazanan_stadyum_ismi}</h2> 
+              <h2> {data.kazanan_stadyum_ismi}</h2> 
             </div>
             
 
@@ -80,7 +84,7 @@ export const WinInfo = ({clyear,championsLeage}) => {
 
           <BsFillPeopleFill className='icons'/>
 
-           <h2 className='text-black text-center text-xl p-2 justify-center items-center'> {data.stadium_kapasite}</h2>
+           <h2> {data.stadium_kapasite}</h2>
 
 
           </div>

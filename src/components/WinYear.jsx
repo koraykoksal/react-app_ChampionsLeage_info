@@ -2,7 +2,7 @@ import React from 'react'
 import {championsLeage} from "../helper/cl.js"
 import { useState } from 'react'
 import { WinInfo } from './WinInfo.jsx'
-
+import {TfiCup} from 'react-icons/tfi'
 
 export const WinYear = () => {
 
@@ -27,7 +27,7 @@ export const WinYear = () => {
           
         </div>
 
-        <h1 className='p-2 text-center'>WINNER</h1>
+        <h1 className='p-2 text-center text-2xl animate-pulse'>WINNER</h1>
 
         <WinInfo clyear={clyear} championsLeage={championsLeage}/>
 

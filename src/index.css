@@ -8,8 +8,11 @@
     body{
 
         @apply bg-[#00088E] text-white;
+    };
+
+    h2{
+        @apply text-black text-center text-xl p-2;
     }
-    
 }
 
 
@@ -30,5 +33,9 @@
 
     .infoShow{
         @apply flex flex-wrap justify-center items-center;
+    };
+
+    .cardd{
+        @apply max-w-lg bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-auto;
     }
 }
