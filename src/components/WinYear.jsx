@@ -27,6 +27,7 @@ export const WinYear = () => {
           
         </div>
 
+        <h1 className='p-2 text-center'>WINNER</h1>
 
         <WinInfo clyear={clyear} championsLeage={championsLeage}/>
 
