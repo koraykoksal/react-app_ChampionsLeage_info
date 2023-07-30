@@ -9,6 +9,7 @@
 
         @apply bg-[#00088E] text-white;
     }
+    
 }
 
 
@@ -17,5 +18,10 @@
     .image{
         @apply h-28 bg-white rounded p-3 ;
     };
+
+
+    .imageBall{
+        @apply h-5 bg-transparent;
+    }
 
 }
