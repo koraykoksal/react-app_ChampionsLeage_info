@@ -1,14 +1,14 @@
 import React from 'react'
 import {championsLeage} from "../helper/cl.js"
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import { WinInfo } from './WinInfo.jsx'
 import {TfiCup} from 'react-icons/tfi'
+
 
 export const WinYear = () => {
 
   const [clyear, setclyear] = useState('2023')
-  //const [cldata, setcldata] = useState(championsLeage)
- 
+
 
   return (
 

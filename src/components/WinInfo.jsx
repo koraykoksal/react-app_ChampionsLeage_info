@@ -33,7 +33,7 @@ export const WinInfo = ({clyear,championsLeage}) => {
 
     
 
-    <div onClick={handleClick} className='max-w-lg m-auto text-center'>
+    <div onClick={handleClick} className='max-w-lg m-auto text-center blur-lg hover:blur-none duration-200'>
       
       
 

@@ -1,8 +1,6 @@
-import React, { useContext, useState } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
 import { WinYear } from '../components/WinYear'
-import {championsLeage} from "../helper/cl.js"
-import { ChampionsProvider } from '../contexts/Info'
+
 
 
 export const Main = () => {
@@ -13,7 +11,6 @@ export const Main = () => {
     <>
 
         <WinYear/>
-
     </>
   )
 }
